@@ -78,3 +78,8 @@ img {
     padding: 12px;
   }
 }
+
+/* 밑줄*/
+.contents_style u { text-decoration-thickness: 1px; text-decoration-color: b0998d; }
+/* 취소선*/
+.contents_style s { text-decoration-thickness: 1px; text-decoration-color: b0998d; }
