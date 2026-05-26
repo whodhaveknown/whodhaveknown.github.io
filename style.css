@@ -6,12 +6,12 @@ a:active {
   text-decoration: none;
 }
 
-.container ::selection {
+::selection {
   color: #ffffff;
   background: #b0998d;
 }
 
-.container ::-moz-selection {
+::-moz-selection {
   color: #ffffff;
   background: #b0998d;
 }
