@@ -23,6 +23,10 @@ li {
   position:relative;
 }
 
+nav a {
+  font-size: 12px;
+}
+
 body {
   font-family: "Pretendard", sans-serif;
   font-size: 14px;
