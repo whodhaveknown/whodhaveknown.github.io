@@ -35,6 +35,10 @@ li {
 
 nav a {
   font-size: 12px;
+  margin-right: 20px;
+}
+nav a:not(:last-child) {
+  margin-right: 20px;
 }
 
 body {
