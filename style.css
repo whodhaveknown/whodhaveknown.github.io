@@ -91,7 +91,14 @@ img {
   }
 }
 
-/* 밑줄*/
-.contents_style u { text-decoration-thickness: 1px; text-decoration-color: #b0998d; }
-/* 취소선*/
-.contents_style s { text-decoration-thickness: 1px; text-decoration-color: #b0998d; }
+.container u {
+  text-decoration-line: underline;
+  text-decoration-color: #b0998d;
+  text-decoration-thickness: 1px;
+}
+
+.container s {
+  text-decoration-line: line-through;
+  text-decoration-color: #b0998d;
+  text-decoration-thickness: 1px;
+}
