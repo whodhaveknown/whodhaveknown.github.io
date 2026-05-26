@@ -6,6 +6,16 @@ a:active {
   text-decoration: none;
 }
 
+.container ::selection {
+  color: #ffffff;
+  background: #b0998d;
+}
+
+.container ::-moz-selection {
+  color: #ffffff;
+  background: #b0998d;
+}
+
 ol,
 ul,
 li {
