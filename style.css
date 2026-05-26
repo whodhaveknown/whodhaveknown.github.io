@@ -80,6 +80,6 @@ img {
 }
 
 /* 밑줄*/
-.contents_style u { text-decoration-thickness: 1px; text-decoration-color: b0998d; }
+.contents_style u { text-decoration-thickness: 1px; text-decoration-color: #b0998d; }
 /* 취소선*/
-.contents_style s { text-decoration-thickness: 1px; text-decoration-color: b0998d; }
+.contents_style s { text-decoration-thickness: 1px; text-decoration-color: #b0998d; }
