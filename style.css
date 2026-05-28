@@ -84,7 +84,7 @@ header{
 .menu a{
     text-decoration:none;
     color:#5f564d;
-    font-size:14px;
+    font-size:13px;
     transition:.25s;
 }
 
@@ -102,7 +102,7 @@ header{
 
 .breadcrumb{
     margin-bottom:24px;
-    font-size:14px;
+    font-size:13px;
     color:#7f776d;
 }
 
@@ -140,7 +140,7 @@ header{
 
 .article h2{
     font-family:'Cormorant Garamond',serif;
-    font-size:54px;
+    font-size:48px;
     line-height:1;
     margin-bottom:10px;
 }
