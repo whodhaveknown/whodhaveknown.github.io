@@ -1,28 +1,157 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="stylesheet" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css">
-  <title>who'd have known</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Cinema Archives</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<div class="container">
-  <header>
-    <nav>
-      <a href="index.html">index</a>
-      <a href="pics.html">pics</a>
-      <a href="memo.html">memo</a>
-    </nav>
-  </header>
 
-  <main>
-    <p>본문 테스트</p>
-  </main>
+<header>
+    <div class="nav">
+
+        <div class="logo">
+            <h1>Cinema Archives</h1>
+            <span>Film Magazine Collection</span>
+        </div>
+
+        <div class="search">
+            <input type="text" placeholder="Search..." />
+            <button>⌕</button>
+        </div>
+
+        <nav class="menu">
+            <a href="#">Home</a>
+            <a href="#">Magazines</a>
+            <a href="#">Manifesto</a>
+            <a href="#">Support & Contact</a>
+        </nav>
+
+    </div>
+</header>
+
+<div class="container">
+
+    <div class="breadcrumb">
+        Magazines / Cinema & Film / N.1 / Page 17
+    </div>
+
+    <div class="content">
+
+        <!-- LEFT -->
+
+        <section class="article">
+
+            <div class="article-top">
+
+                <div>
+                    <div class="article-sub">
+                        CINEMA & FILM ・ INVERNO 1966-1967
+                    </div>
+
+                    <h2>La semplicità della confusione</h2>
+
+                    <div class="author">
+                        di Adriano Aprà
+                    </div>
+                </div>
+
+                <div class="page">
+                    PAGE 17
+                </div>
+
+            </div>
+
+            <div class="article-body">
+
+                <p>
+                    «Per me il tempo dell’azione è passato.
+                    Sono invecchiato. Comincia quello della riflessione».
+                    Per Godard, come per il «piccolo soldato» Bruno Forestier,
+                    è passato il tempo di À bout de souffle...
+                </p>
+
+                <br>
+
+                <p>
+                    Questo layout è pensato per un archivio personale,
+                    portfolio editoriale, 영화 리뷰 사이트,
+                    필름 아카이브, 북로그 같은 분위기에 잘 어울림.
+                </p>
+
+                <br>
+
+                <p>
+                    오른쪽은 실제 스캔 이미지나 사진을 넣고,
+                    왼쪽은 텍스트를 읽는 구조라서
+                    분위기가 엄청 고전 잡지 느낌 남.
+                </p>
+
+                <br>
+
+                <p>
+                    배경색을 아이보리로 맞춰서
+                    오래된 인쇄물 느낌 나게 했고
+                    serif 폰트랑 얇은 인터 폰트 조합으로
+                    빈티지 아카이브 분위기 만들었음.
+                </p>
+
+                <br>
+
+                <p>
+                    스크롤 영역, 검색창, 네비게이션,
+                    이미지 뷰어까지 전부 포함되어 있어서
+                    그대로 개인홈 메인으로 써도 됨.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- RIGHT -->
+
+        <section class="viewer">
+
+            <div class="viewer-top">
+
+                <div class="viewer-left">
+                    <div class="viewer-title">
+                        ORIGINAL SCAN
+                    </div>
+
+                    <button class="report">
+                        Report error
+                    </button>
+                </div>
+
+                <div class="viewer-icons">
+                    <span>－</span>
+                    <span>RESET</span>
+                    <span>＋</span>
+                    <span>↻</span>
+                    <span>↗</span>
+                </div>
+
+            </div>
+
+            <div class="scan">
+                <img src="https://images.unsplash.com/photo-1512427691650-9d4f0d6c6c6f?q=80&w=1200&auto=format&fit=crop" />
+            </div>
+
+        </section>
+
+    </div>
+
+    <div class="bottom-nav">
+        <a href="#">← Page 16</a>
+        <a href="#">Page 18 →</a>
+    </div>
+
 </div>
+
 </body>
 </html>
