@@ -94,7 +94,6 @@ header{
 
 .content{
     display:flex;
-    flex-direction:row-reverse;
     gap:56px;
     align-items:flex-start;
 }
