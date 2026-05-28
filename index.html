@@ -3,15 +3,258 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 <title>Cinema Archives</title>
-<link rel="stylesheet" href="style.css">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#f4efe7;
+    color:#1d1d1d;
+    font-family:'Inter', sans-serif;
+    overflow-x:hidden;
+}
+
+/* ===== HEADER ===== */
+
+header{
+    width:100%;
+    border-bottom:1px solid #ddd3c8;
+    padding:24px 40px;
+}
+
+.nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:40px;
+}
+
+.logo h1{
+    font-family:'Cormorant Garamond', serif;
+    font-size:34px;
+    font-weight:600;
+    line-height:1;
+}
+
+.logo span{
+    font-size:10px;
+    letter-spacing:0.15em;
+    text-transform:uppercase;
+    color:#857d73;
+}
+
+.search{
+    display:flex;
+    align-items:center;
+    border-bottom:1px solid #bbb;
+    padding-bottom:4px;
+}
+
+.search input{
+    border:none;
+    background:none;
+    outline:none;
+    font-size:11px;
+    width:140px;
+}
+
+.search button{
+    border:none;
+    background:none;
+    cursor:pointer;
+    font-size:12px;
+}
+
+.menu{
+    display:flex;
+    gap:28px;
+}
+
+.menu a{
+    text-decoration:none;
+    color:#222;
+    font-size:11px;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+}
+
+/* ===== CONTAINER ===== */
+
+.container{
+    width:100%;
+    padding:40px;
+}
+
+.breadcrumb{
+    font-size:10px;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:#8c847a;
+    margin-bottom:24px;
+}
+
+/* ===== CONTENT ===== */
+
+.content{
+    display:flex;
+    flex-direction:row-reverse;
+    gap:56px;
+    align-items:flex-start;
+}
+
+/* ===== ARTICLE ===== */
+
+.article{
+    width:42%;
+}
+
+.article-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin-bottom:40px;
+}
+
+.article-sub{
+    font-size:9px;
+    letter-spacing:0.18em;
+    text-transform:uppercase;
+    color:#7a746d;
+    margin-bottom:14px;
+}
+
+.article h2{
+    font-family:'Cormorant Garamond', serif;
+    font-size:46px;
+    line-height:0.95;
+    font-weight:600;
+    margin-bottom:16px;
+}
+
+.author{
+    font-size:11px;
+    color:#7d756d;
+}
+
+.page{
+    font-size:10px;
+    letter-spacing:0.15em;
+    color:#857d73;
+}
+
+.article-body{
+    font-size:13px;
+    line-height:1.9;
+    color:#2e2e2e;
+}
+
+.article-body p{
+    margin-bottom:18px;
+}
+
+/* ===== VIEWER ===== */
+
+.viewer{
+    width:58%;
+}
+
+.viewer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin-bottom:16px;
+}
+
+.viewer-title{
+    font-size:10px;
+    letter-spacing:0.15em;
+    text-transform:uppercase;
+    margin-bottom:10px;
+}
+
+.report{
+    border:none;
+    background:none;
+    font-size:11px;
+    color:#777;
+    cursor:pointer;
+}
+
+.viewer-icons{
+    display:flex;
+    gap:16px;
+    font-size:11px;
+    color:#555;
+}
+
+.scan{
+    width:100%;
+    background:#e7dfd4;
+    padding:20px;
+}
+
+.scan img{
+    width:100%;
+    display:block;
+}
+
+/* ===== BOTTOM ===== */
+
+.bottom-nav{
+    display:flex;
+    justify-content:space-between;
+    margin-top:36px;
+}
+
+.bottom-nav a{
+    text-decoration:none;
+    color:#222;
+    font-size:11px;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+}
+
+/* ===== MOBILE ===== */
+
+@media (max-width:900px){
+
+    .nav{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .content{
+        flex-direction:column;
+    }
+
+    .viewer,
+    .article{
+        width:100%;
+    }
+
+    .article h2{
+        font-size:34px;
+    }
+
+}
+
+</style>
 </head>
 
 <body>
 
 <header>
+
     <div class="nav">
 
         <div class="logo">
@@ -32,6 +275,7 @@
         </nav>
 
     </div>
+
 </header>
 
 <div class="container">
@@ -42,77 +286,7 @@
 
     <div class="content">
 
-        <!-- LEFT -->
-
-        <section class="article">
-
-            <div class="article-top">
-
-                <div>
-                    <div class="article-sub">
-                        CINEMA & FILM ・ INVERNO 1966-1967
-                    </div>
-
-                    <h2>La semplicità della confusione</h2>
-
-                    <div class="author">
-                        di Adriano Aprà
-                    </div>
-                </div>
-
-                <div class="page">
-                    PAGE 17
-                </div>
-
-            </div>
-
-            <div class="article-body">
-
-                <p>
-                    «Per me il tempo dell’azione è passato.
-                    Sono invecchiato. Comincia quello della riflessione».
-                    Per Godard, come per il «piccolo soldato» Bruno Forestier,
-                    è passato il tempo di À bout de souffle...
-                </p>
-
-                <br>
-
-                <p>
-                    Questo layout è pensato per un archivio personale,
-                    portfolio editoriale, 영화 리뷰 사이트,
-                    필름 아카이브, 북로그 같은 분위기에 잘 어울림.
-                </p>
-
-                <br>
-
-                <p>
-                    오른쪽은 실제 스캔 이미지나 사진을 넣고,
-                    왼쪽은 텍스트를 읽는 구조라서
-                    분위기가 엄청 고전 잡지 느낌 남.
-                </p>
-
-                <br>
-
-                <p>
-                    배경색을 아이보리로 맞춰서
-                    오래된 인쇄물 느낌 나게 했고
-                    serif 폰트랑 얇은 인터 폰트 조합으로
-                    빈티지 아카이브 분위기 만들었음.
-                </p>
-
-                <br>
-
-                <p>
-                    스크롤 영역, 검색창, 네비게이션,
-                    이미지 뷰어까지 전부 포함되어 있어서
-                    그대로 개인홈 메인으로 써도 됨.
-                </p>
-
-            </div>
-
-        </section>
-
-        <!-- RIGHT -->
+        <!-- IMAGE LEFT -->
 
         <section class="viewer">
 
@@ -139,7 +313,65 @@
             </div>
 
             <div class="scan">
-                <img src="https://images.unsplash.com/photo-1512427691650-9d4f0d6c6c6f?q=80&w=1200&auto=format&fit=crop" />
+                <img src="https://images.unsplash.com/photo-1512427691650-9d4f0d6c6c6f?q=80&w=1200&auto=format&fit=crop">
+            </div>
+
+        </section>
+
+        <!-- TEXT RIGHT -->
+
+        <section class="article">
+
+            <div class="article-top">
+
+                <div>
+
+                    <div class="article-sub">
+                        CINEMA & FILM ・ INVERNO 1966-1967
+                    </div>
+
+                    <h2>
+                        La semplicità della confusione
+                    </h2>
+
+                    <div class="author">
+                        di Adriano Aprà
+                    </div>
+
+                </div>
+
+                <div class="page">
+                    PAGE 17
+                </div>
+
+            </div>
+
+            <div class="article-body">
+
+                <p>
+                    «Per me il tempo dell’azione è passato.
+                    Sono invecchiato. Comincia quello della riflessione».
+                    Per Godard, come per il «piccolo soldato» Bruno Forestier,
+                    è passato il tempo di À bout de souffle...
+                </p>
+
+                <p>
+                    Questo layout è pensato per un archivio personale,
+                    portfolio editoriale, 영화 리뷰 사이트,
+                    필름 아카이브, 북로그 같은 분위기에 잘 어울림.
+                </p>
+
+                <p>
+                    오른쪽은 텍스트,
+                    왼쪽은 실제 스캔 이미지를 두는 구조라
+                    빈티지 아카이브 느낌이 강하게 남.
+                </p>
+
+                <p>
+                    아이보리 배경 + serif 타이틀 조합으로
+                    오래된 영화잡지 분위기 구현함.
+                </p>
+
             </div>
 
         </section>
