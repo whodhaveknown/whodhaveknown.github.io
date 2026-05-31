@@ -184,7 +184,7 @@ text-align: justify;
     padding: 20px;
     display:flex;
     justify-content:space-between;
-    margin-top:20px;
+    margin: 20px auto 0;
 }
 
 .bottom-nav a{
