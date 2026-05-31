@@ -53,10 +53,11 @@ header{
 .search{
     display:flex;
     align-items:center;
-    width:540px;
+    width:400px;
     border:1px solid #d8cfc2;
     background:#f6f1ea;
     height:34px;
+    border-radius: 10px;
 }
 
 .search input{
