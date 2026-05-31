@@ -228,7 +228,8 @@ header{
 }
 
 .scan{
-    height:540px;
+    height:auto;
+    padding: 20px;
     background:#ebe2d7;
     display:flex;
     justify-content:center;
@@ -237,7 +238,7 @@ header{
 }
 
 .scan img{
-    width:63%;
+    width:100%;
     height:auto;
     display:block;
     margin-top:0;
