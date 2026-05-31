@@ -123,6 +123,7 @@ header{
     border-radius:10px;
     background:#f8f4ee;
     overflow:hidden;
+    margin: 0 auto;
 }
 
 .article-top{
