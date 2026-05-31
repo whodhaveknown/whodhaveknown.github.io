@@ -99,20 +99,20 @@ header{
 
 .container{
     width:100%;
-    padding:28px 34px 40px;
+    padding:20px;
 }
 
 .searchlist{
     font-size:11px;
     color:#726b63;
-    margin-bottom:22px;
+    margin-bottom:20px;
 }
 
 /* ===== CONTENT ===== */
 
 .content{
     display:flex;
-    gap:26px;
+    gap:20px;
     align-items:stretch;
 }
 
@@ -127,7 +127,7 @@ header{
 }
 
 .article-top{
-    padding:20px 26px 24px;
+    padding:20px;
     border-bottom:1px solid #ddd3c7;
     display:flex;
     justify-content:space-between;
@@ -137,7 +137,6 @@ header{
 .article-category{
      border:1px solid #d7cec1;
     background:#f8f4ee;
-    font-style:italic;
     border-radius:5px;
     padding:4px 8px;
     font-size:10px;
@@ -148,7 +147,6 @@ header{
 }
 
 .article-sub{
-    font-family:'Cormorant Garamond', serif;
     font-size:24px;
     font-weight:600;
     line-height:1;
@@ -162,7 +160,7 @@ header{
 
 .page{
     font-size:11px;
-    letter-spacing:0.12em;
+    letter-spacing:0.16em;
     color:#746d65;
 }
 
@@ -173,17 +171,17 @@ header{
     font-size:14px;
     line-height:2;
     color:#2c2926;
-    font-family:'Cormorant Garamond', serif;
 }
 
 .article-body p{
-    margin-bottom:22px;
+text-align: justify;
 }
 
 /* ===== BOTTOM NAV ===== */
 
 .bottom-nav{
     width: 90%;
+    padding: 20px;
     display:flex;
     justify-content:space-between;
     margin-top:20px;
