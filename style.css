@@ -134,7 +134,7 @@ header{
     align-items:flex-start;
 }
 
-.article-sub{
+.article-category{
     font-size:10px;
     letter-spacing:0.16em;
     text-transform:uppercase;
@@ -142,19 +142,17 @@ header{
     margin-bottom:12px;
 }
 
-.article h2{
+.article-sub{
     font-family:'Cormorant Garamond', serif;
-    font-size:34px;
+    font-size:24px;
     font-weight:600;
     line-height:1;
     margin-bottom:12px;
 }
 
-.author{
-    font-family:'Cormorant Garamond', serif;
-    font-size:14px;
-    font-style:italic;
-    color:#655d56;
+.article-name{
+    font-size:10px;
+      color:#7e766d;
 }
 
 .page{
@@ -209,9 +207,10 @@ header{
     color:#726b63;
 }
 
-.report{
+.viewer-info{
     border:1px solid #d7cec1;
     background:#f8f4ee;
+    font-style:italic;
     border-radius:5px;
     padding:4px 8px;
     font-size:10px;
