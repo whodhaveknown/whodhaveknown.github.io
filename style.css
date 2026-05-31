@@ -5,19 +5,19 @@
 }
 
 body{
-    background:#f3eee6;
-    color:#26231f;
+    background:#f9f9f7  ;
+    color:#232323;
     font-family:'Inter', sans-serif;
     overflow-x:hidden;
 }
 
-/* ===== HEADER ===== */
+/* ===== 헤더 ===== */
 
 header{
     width:100%;
     border-bottom:1px solid #ddd4c8;
     padding:18px 34px;
-    background:#f3eee6;
+    background:#e2e1de;
 }
 
 .nav{
@@ -35,8 +35,8 @@ header{
 
 .logo h1{
     font-family:'Cormorant Garamond', serif;
-    font-size:26px;
-    font-weight:600;
+    font-size:24px;
+    font-weight:700;
     line-height:1;
 }
 
@@ -48,7 +48,7 @@ header{
     transform:translateY(1px);
 }
 
-/* ===== SEARCH ===== */
+/* ===== 검색창 ===== */
 
 .search{
     display:flex;
@@ -78,7 +78,7 @@ header{
     border-left:1px solid #d8cfc2;
     background:none;
     cursor:pointer;
-    font-size:12px;
+    font-size:14px;
     color:#666;
 }
 
@@ -95,14 +95,14 @@ header{
     font-size:11px;
 }
 
-/* ===== CONTAINER ===== */
+/* ===== 컨테이너 ===== */
 
 .container{
     width:100%;
     padding:28px 34px 40px;
 }
 
-.breadcrumb{
+.desc{
     font-size:11px;
     color:#726b63;
     margin-bottom:22px;
