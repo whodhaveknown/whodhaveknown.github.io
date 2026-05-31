@@ -86,7 +86,7 @@ header{
 
 .menu{
     display:flex;
-    gap:24px;
+    gap:12px;
 }
 
 .menu a{
