@@ -178,6 +178,7 @@ text-align: justify;
     padding: 20px;
     display:flex;
     justify-content:space-between;
+    box-sizing:border-box;
     margin: 20px auto 0;
 }
 
