@@ -5,7 +5,7 @@
 }
 
 body{
-    background:#f9f9f7  ;
+    background:#f2f2f2;
     color:#232323;
     font-family:'Inter', sans-serif;
     overflow-x:hidden;
@@ -17,7 +17,7 @@ header{
     width:100%;
     border-bottom:1px solid #ddd4c8;
     padding:18px 34px;
-    background:#e2e1de;
+    background:#f2f2f2;
 }
 
 .nav{
